@@ -1,16 +1,44 @@
-# React + Vite
+# 🛡️ Credzy: The Trust Layer for Campus Hiring
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Credzy** is a next-generation security and verification platform designed to eliminate fraud and scams in the campus recruitment ecosystem. It establishing a decentralized "Trust Layer," protecting students from predatory job scams and recruiters from identity fraud.
 
-Currently, two official plugins are available:
+## 🚀 Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 1. OfferShield (Student Protection)
+- **Scam Ledger**: A real-time database of flagged fraudulent companies and recruiters.
+- **Offer Scanner**: AI-driven analysis of job offers to detect red flags and verify corporate legitimacy.
+- **Identity Baseline**: Secure multimodal proof creation to prevent identity theft.
 
-## React Compiler
+### 2. CandidateShield (Recruiter Protection)
+- **Live Video Validation**: A secure interview interface with real-time "Shield Agent" monitoring (face matching, eye tracking, and audio anomaly detection).
+- **Multimodal Trust Anchors**: Identity verification via GitHub contributions, LinkedIn history, and University (.edu) domain checks.
+- **Trust Scoring**: Dynamic behavioral scoring based on profile consistency and historical verification data.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
+- **Frontend**: React (Vite), Tailwind CSS, Lucide Icons.
+- **Security**: Auth0 integration for enterprise-grade authentication.
+- **UX/UI**: High-fidelity micro-animations and responsive premium SaaS design.
 
-## Expanding the ESLint configuration
+## 🏁 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/SughoshaVasista/Credzy.git
+   cd Credzy
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+## 📸 Project Vision
+To make campus hiring 100% transparent and fraud-free, ensuring talent and opportunity connect through a secure, data-driven path.
+
+---
+*Built with ❤️ for a secure future of recruitment.*
